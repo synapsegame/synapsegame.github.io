@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksynapse_docs=self.webpackChunksynapse_docs||[]).push([[1731],{5005:e=>{e.exports=JSON.parse('{"label":"developer notes","permalink":"/blog/tags/developer-notes","allTagsPath":"/blog/tags","count":1}')}}]);
