@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://playsynapse.com/release</id>
+    <title>Synapse Blog</title>
+    <updated>2023-03-24T02:17:01.968Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://playsynapse.com/release"/>
+    <subtitle>Synapse Blog</subtitle>
+    <icon>https://playsynapse.com/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[v0.0.3]]></title>
+        <id>https://playsynapse.com/release/v0.0.3</id>
+        <link href="https://playsynapse.com/release/v0.0.3"/>
+        <updated>2023-03-24T02:17:01.968Z</updated>
+        <summary type="html"><![CDATA[- Ability to reroll perks, for a price]]></summary>
+        <content type="html"><![CDATA[<ul><li>Ability to reroll perks, for a price</li></ul><h1>Changes</h1><ul><li>Death screen now shows level and perk summary at death</li><li>Player briefly flashes red and changes facial expression when taking damage</li><li>Corpses are displayed on unit death</li><li>Changed perk rarity color to background (was previously perk name)</li></ul><h1>Balance</h1><ul><li>Fixed issue where closest enemy to player was not being targeted</li><li>Fixed issue where selecting the attack range perk was breaking the SMG</li><li>Corrected calculation for adjusted armor perk</li><li>Improved critical damage calculation</li><li>Adjusted scaling of enemy health and damage</li><li></li></ul><h1>Bugfix</h1>]]></content>
+        <category label="Release Notes" term="Release Notes"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[v0.0.4]]></title>
+        <id>https://playsynapse.com/release/v0.0.4</id>
+        <link href="https://playsynapse.com/release/v0.0.4"/>
+        <updated>2023-03-24T01:53:42.386Z</updated>
+        <summary type="html"><![CDATA[- The game now has a name- Synapse!]]></summary>
+        <content type="html"><![CDATA[<ul><li>The game now has a name- Synapse!</li><li>Created an instagram and registered playsynapse.com</li><li>Randomly spawn health and armor pickups on the level<ul><li>Pickups give cells if health pickup and player has max health</li><li>Armor pickup always adds armor</li><li>Pickups can spawn closer to player if less than 5 health</li></ul></li></ul><h1>Changes</h1><ul><li>Limited number of corpses on screen to 30</li><li>Made everything smaller on screen</li><li>Adjusted hitboxes to be a bit more forgiving for the player</li><li>Add a pickup spawn boost perk to reduce time between pickup spawns</li><li>Adjusted fire rate of weapons to make the game a bit more challenging</li><li>Significantly adjusted the number of enemies that spawn in later waves. You should be able to make it past level 15 now.</li><li>Updated the application icon and loading screen</li><li>Units become disinterested if far enough away from player</li><li>Units will flee if a threshold of units are killed in their proximity</li><li>15% chance to spawn enraged units with increased stats and no chance of threat</li><li>50% chance of receiving cell pickup at end of level (make a stat that adjusts this)</li></ul><h1>Bugfix</h1>]]></content>
+        <category label="Release Notes" term="Release Notes"/>
+    </entry>
+</feed>
