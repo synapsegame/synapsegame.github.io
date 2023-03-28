@@ -4,7 +4,7 @@
         <title>Synapse Blog</title>
         <link>https://playsynapse.com/blog</link>
         <description>Synapse Blog</description>
-        <lastBuildDate>Thu, 23 Mar 2023 05:19:05 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 24 Mar 2023 19:40:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
@@ -12,7 +12,7 @@
             <title><![CDATA[TODO, or short-term roadmap]]></title>
             <link>https://playsynapse.com/blog/TODO</link>
             <guid>https://playsynapse.com/blog/TODO</guid>
-            <pubDate>Thu, 23 Mar 2023 05:19:05 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 19:40:23 GMT</pubDate>
             <description><![CDATA[Developer notes will go here]]></description>
             <content:encoded><![CDATA[<p>Developer notes will go here</p>]]></content:encoded>
             <category>developer notes</category>

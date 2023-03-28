@@ -4,15 +4,33 @@
         <title>Synapse Blog</title>
         <link>https://playsynapse.com/release</link>
         <description>Synapse Blog</description>
-        <lastBuildDate>Fri, 24 Mar 2023 02:17:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Mar 2023 17:22:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
+            <title><![CDATA[v0.0.6]]></title>
+            <link>https://playsynapse.com/release/v0.0.6</link>
+            <guid>https://playsynapse.com/release/v0.0.6</guid>
+            <pubDate>Tue, 28 Mar 2023 17:22:56 GMT</pubDate>
+            <description><![CDATA[- Items now appear in the item store]]></description>
+            <content:encoded><![CDATA[<ul><li>Items now appear in the item store<ul><li>Some placeholder images being used</li><li>Stats will be adjusted and balanced in time. Initial values in place to confirm proper integration with game logic</li></ul></li><li>Item modifiers apply to player stats and the enemy spawner</li><li>Text popups for damage (units, players) and pickups (cells)</li><li>Audio for combat, pickups, and some initial background music</li><li>Particle effects for damage and movement</li><li>Animations for biological mite units</li><li>New hero sprite</li><li>Weapons have kickback on fire</li><li>Mechanical arms appear to hold more weapons</li><li>Volume controls in pause menu</li></ul><h1>Changes</h1><ul><li>Three new enemy types<ul><li>Armored mite (wave 3)</li><li>Cyber mite (wave 5)</li><li>Cyber mite with explosive projectiles (wave 8)</li></ul></li><li>Enraged units now spawn adjusted color and slight scale increase</li><li>Enemies move slightly away from player on death (to create knockback visual)</li><li>Unit stats now scale with level after the unit has appeared for one level previously</li><li>Character flashes blue if damage done to armor, red if damage done to health</li><li>Moved the joystick a bit further down the screen and disabled enemy spawn at bottom 20% of screen</li></ul><h1>Bugfix</h1><ul><li>Fixed bug where the player could reroll if all four items are locked in the item shop</li><li>Fixed bug where player could buy additional weapons, even if all slots were full. Have not yet implemented logic for upgrading if same rarity.</li></ul>]]></content:encoded>
+            <category>Release Notes</category>
+        </item>
+        <item>
+            <title><![CDATA[v0.0.5]]></title>
+            <link>https://playsynapse.com/release/v0.0.5</link>
+            <guid>https://playsynapse.com/release/v0.0.5</guid>
+            <pubDate>Sat, 25 Mar 2023 20:28:51 GMT</pubDate>
+            <description><![CDATA[- The pause menu now displays release notes for the current version]]></description>
+            <content:encoded><![CDATA[<ul><li>The pause menu now displays release notes for the current version</li><li>initial set of items now available after each wave</li><li>Two additional weapons can be equipped (total of four)</li><li>Death screen now displays your all-time highest wave completed</li><li>Added spread damage and projectile functionality for shotgun-like weapons</li></ul><h1>Changes</h1><ul><li>Perks now display with percentages for name and value</li><li>Weapons rotate to face target before firing</li><li>Added perk descriptions</li><li>Less enemies with more health</li><li>Reduce the enemy movement speed slightly</li><li>Reduced space-mite size</li><li>Set the gun pivot point back towards the handle to make the rotation more realistic</li><li>Display the player cell count in the item store</li><li>Quite a bit behind the scenes in preparation for non-weapon items in the item store</li></ul><h1>Bugfix</h1><ul><li>Weapons are purchased even if player does not have enough open slots</li><li>Cells are not subtracted on item purchase</li><li>Reroll currently does nothing because there are only four items</li><li>Locked items not persisting between levels</li></ul>]]></content:encoded>
+            <category>Release Notes</category>
+        </item>
+        <item>
             <title><![CDATA[v0.0.3]]></title>
             <link>https://playsynapse.com/release/v0.0.3</link>
             <guid>https://playsynapse.com/release/v0.0.3</guid>
-            <pubDate>Fri, 24 Mar 2023 02:17:01 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 19:40:23 GMT</pubDate>
             <description><![CDATA[- Ability to reroll perks, for a price]]></description>
             <content:encoded><![CDATA[<ul><li>Ability to reroll perks, for a price</li></ul><h1>Changes</h1><ul><li>Death screen now shows level and perk summary at death</li><li>Player briefly flashes red and changes facial expression when taking damage</li><li>Corpses are displayed on unit death</li><li>Changed perk rarity color to background (was previously perk name)</li></ul><h1>Balance</h1><ul><li>Fixed issue where closest enemy to player was not being targeted</li><li>Fixed issue where selecting the attack range perk was breaking the SMG</li><li>Corrected calculation for adjusted armor perk</li><li>Improved critical damage calculation</li><li>Adjusted scaling of enemy health and damage</li><li></li></ul><h1>Bugfix</h1>]]></content:encoded>
             <category>Release Notes</category>
@@ -21,7 +39,7 @@
             <title><![CDATA[v0.0.4]]></title>
             <link>https://playsynapse.com/release/v0.0.4</link>
             <guid>https://playsynapse.com/release/v0.0.4</guid>
-            <pubDate>Fri, 24 Mar 2023 01:53:42 GMT</pubDate>
+            <pubDate>Fri, 24 Mar 2023 19:40:23 GMT</pubDate>
             <description><![CDATA[- The game now has a name- Synapse!]]></description>
             <content:encoded><![CDATA[<ul><li>The game now has a name- Synapse!</li><li>Created an instagram and registered playsynapse.com</li><li>Randomly spawn health and armor pickups on the level<ul><li>Pickups give cells if health pickup and player has max health</li><li>Armor pickup always adds armor</li><li>Pickups can spawn closer to player if less than 5 health</li></ul></li></ul><h1>Changes</h1><ul><li>Limited number of corpses on screen to 30</li><li>Made everything smaller on screen</li><li>Adjusted hitboxes to be a bit more forgiving for the player</li><li>Add a pickup spawn boost perk to reduce time between pickup spawns</li><li>Adjusted fire rate of weapons to make the game a bit more challenging</li><li>Significantly adjusted the number of enemies that spawn in later waves. You should be able to make it past level 15 now.</li><li>Updated the application icon and loading screen</li><li>Units become disinterested if far enough away from player</li><li>Units will flee if a threshold of units are killed in their proximity</li><li>15% chance to spawn enraged units with increased stats and no chance of threat</li><li>50% chance of receiving cell pickup at end of level (make a stat that adjusts this)</li></ul><h1>Bugfix</h1>]]></content:encoded>
             <category>Release Notes</category>
