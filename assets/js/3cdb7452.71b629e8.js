@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksynapse_docs=self.webpackChunksynapse_docs||[]).push([[7174],{9419:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"v0.0.6","permalink":"/release/v0.0.6"},{"title":"v0.0.5","permalink":"/release/v0.0.5"},{"title":"v0.0.3","permalink":"/release/v0.0.3"},{"title":"v0.0.4","permalink":"/release/v0.0.4"}]}')}}]);
